@@ -1,0 +1,18 @@
+{
+  "name": "spotify-rewards-bot",
+  "version": "1.0.0",
+  "description": "Bot que agrega canciones a una playlist de Spotify cuando alguien canjea una recompensa de puntos de canal de Twitch (vía Streamer.bot).",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node src/auth.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@streamerbot/client": "^1.8.0",
+    "dotenv": "^16.4.5"
+  }
+}
